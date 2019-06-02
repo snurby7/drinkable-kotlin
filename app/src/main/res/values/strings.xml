@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Drinkable</string>
     <string name="title_activity_add_coffee">AddCoffeeActivity</string>
+    <string name="coffee_roaster_name">Roaster Name</string>
+    <string name="coffee_name">Coffee Name</string>
+    <string name="coffee_region">Region</string>
+    <string name="website">Website</string>
+    <string name="purchase_date">Purchase Date</string>
+    <string name="try_again">Try Again</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
 </resources>
