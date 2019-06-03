@@ -10,4 +10,5 @@
     <string name="notes">Notes</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
+    <string name="DEBUG_DRINKABLE">DRINKABLE_DEBUG</string>
 </resources>

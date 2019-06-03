@@ -46,7 +46,8 @@
             android:id="@+id/button_save_coffee"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/switch2" android:backgroundTint="@android:color/holo_green_dark"/>
+            app:layout_constraintTop_toBottomOf="@+id/coffee_try_again"
+            android:backgroundTint="@android:color/holo_green_dark"/>
     <Button
             android:text="@string/cancel"
             android:layout_width="wrap_content"
@@ -54,12 +55,13 @@
             android:id="@+id/button_cancel_coffee"
             app:layout_constraintEnd_toStartOf="@+id/button_save_coffee"
             android:layout_marginEnd="8dp" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toBottomOf="@+id/switch2" android:backgroundTint="@android:color/holo_red_dark"
+            app:layout_constraintTop_toBottomOf="@+id/coffee_try_again"
+            android:backgroundTint="@android:color/holo_red_dark"
             android:textColor="@android:color/background_light"/>
     <Switch
             android:text="@string/try_again"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/switch2" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
+            android:id="@+id/coffee_try_again" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="24dp"
             android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/text_roaster_name"/>
 </android.support.constraint.ConstraintLayout>
